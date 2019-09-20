@@ -1,0 +1,16 @@
+server:
+  port: 8086
+  servlet:
+    context-path: /
+
+
+#eureka相关配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka01:8000/eureka,http://eureka02:8001/eureka
+  instance:
+    instance-id: consumer8086-1
+spring:
+  application:
+    name: consumer8086

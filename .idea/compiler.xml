@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demoapi" />
+        <module name="democommon" />
+        <module name="democonsumer8086" />
+        <module name="demoprovider8082" />
+        <module name="server8000" />
+        <module name="server8001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-6000 (1)" target="1.5" />
+      <module name="eureka-8001" target="1.5" />
+      <module name="eureka8000" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
